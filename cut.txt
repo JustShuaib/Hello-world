@@ -1,3 +1,0 @@
-This is a file created in the cut branch in the master main.
-A file created in a branch should not be visible in the main branch by default.
-This is just a test by the way
