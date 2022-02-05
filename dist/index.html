@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section
+      class="bg-blue-800 text-gray-200 pt-8 pb-8 border-b-4 border-pink-500"
+    >
+      <!-- The Hero section -->
+      <nav class="flex justify-between px-6 items-center mb-8">
+        <a href="#">
+          <img class="w-36" src="../img/scrimba logo.png" alt="Scrimba logo"
+        /></a>
+        <span class="text-blue-400 cursor-pointer text-3xl"
+          ><i class="fas fa-bars"></i>
+        </span>
+      </nav>
+      <h2
+        class="text-center font-semibold text-2xl leading-10 mb-3 tracking-normal"
+      >
+        Want to learn Tailwind CSS?
+      </h2>
+      <p class="text-justify px-5 leading-6">
+        Tailwind is the fastest growing utility-first CSS framework. Let's learn
+        it step by step.
+      </p>
+      <button
+        class="px-3 py-1 bg-pink-500 font-bold uppercase ml-5 mt-3 rounded-full"
+      >
+        Enroll Now
+      </button>
+    </section>
+    <main class="relative px-5 bg-gray-200 text-gray-800">
+      <div
+        class="rounded-full border-4 h-32 border-pink-500 absolute -top-16 right-8 w-32 overflow-hidden"
+      >
+        <img width=100%" src="../img/tailwind logo.jpg" alt="Tailwind logo" />
+      </div>
+      <h3
+        class="pt-16 font-bold text-2xl text-blue-800 border-gray-400 border-b pb-2"
+      >
+        How it Works
+      </h3>
+      <p class="pt-4">
+        Tailwind is designed for rapid development of modern applications. At
+        its core, it is a robust mobile-first design system built with developer
+        experience in mind. After using Tailwind CSS, you will find it difficult
+        to go back to use anything else. Learn all about it in this
+        all-inclusive course.
+      </p>
+    </main>
+    <!-- Advantages -->
+    <h4
+      class="pt-8 px-5 font-bold text-2xl text-blue-800 border-gray-400 border-b pb-2 bg-gray-200"
+    >
+      Advantages
+    </h4>
+    <section
+      class="bg-gray-200 text-gray-800 pb-8 flex flex-col space-y-10 w-full items-center justify-center"
+    >
+      <section
+        class="bg-gray-100 rounded-lg mt-8 pb-3 w-10/12 border-b-4 border-pink-500 hover:shadow-lg"
+      >
+        <!-- LOGO -->
+        <span
+          class="rounded-full bg-blue-100 text-3xl px-2 py-5 my-6 text-center block w-20 mx-auto"
+          ><i class="fab fa-css3-alt"></i>
+        </span>
+        <h4 class="text-center font-bold text-xl mb-2">No Custom CSS</h4>
+        <p class="w-8/12 mx-auto">
+          Tailwind's advanced class extraction will leave your project free of
+          custom CSS
+        </p>
+      </section>
+      <section
+        class="mt-4 p-3 bg-gray-100 w-10/12 mx-auto rounded-lg pb-5 border-b-4 border-pink-500 hover:shadow-lg"
+      >
+        <!-- LOGO -->
+        <span
+          class="rounded-full bg-blue-100 text-3xl px-2 py-5 my-6 text-center block w-20 mx-auto"
+          ><i class="fas fa-laptop-code"></i>
+        </span>
+        <h4 class="text-center font-bold text-xl mb-2">Developer Experience</h4>
+        <p class="w-9/12 mx-auto">
+          Tailwind is designed with your happiness in mind. The ease of
+          performing changes is refreshing.
+        </p>
+      </section>
+      <section
+        class="mt-4 p-3 bg-gray-100 w-10/12 mx-auto rounded-lg pb-5 border-b-4 border-pink-500 hover:shadow-lg"
+      >
+        <!-- LOGO -->
+        <span
+          class="text-3xl px-2 py-5 my-6 text-center block w-20 mx-auto rounded-full bg-blue-100"
+          ><i class="fas fa-mobile-alt"></i>
+        </span>
+        <h4 class="text-center font-bold text-xl mb-2">Mobile Friendly</h4>
+        <p class="w-9/12 mx-auto">
+          Modern applications demand mobile-friendly &amp; Tailwind's responsive
+          modifiers make it easy
+        </p>
+      </section>
+    </section>
+    <!-- The form -->
+    <section class="bg-gray-800 w-full pb-5">
+      <p class="text-gray-300 font-bold text-center py-8 tracking-wide">
+        Sign up to download the free PDF
+      </p>
+      <form class="flex flex-col space-y-5">
+        <input
+          type="text"
+          placeholder="First name"
+          class="w-10/12 mx-auto rounded-lg px-5 py-2 text-gray-300 bg-gray-700 outline-gray-700 outline-2 outline"
+        />
+        <input
+          type="text"
+          placeholder="Last name"
+          class="w-10/12 mx-auto rounded-lg px-5 py-2 text-gray-300 bg-gray-700 outline-gray-700 outline-2 outline"
+        />
+        <input
+          type="text"
+          placeholder="john@email.com"
+          class="w-10/12 mx-auto rounded-lg px-5 py-2 text-gray-300 bg-gray-700 outline-gray-700 outline-2 outline"
+        />
+        <input
+          type="text"
+          placeholder="Your title"
+          class="w-10/12 mx-auto rounded-lg px-5 py-2 text-gray-300 bg-gray-700 outline-gray-700 outline-2 outline"
+        />
+        <input
+          type="submit"
+          value="Create account"
+          class="w-10/12 mx-auto rounded-lg px-5 py-2 text-gray-300 bg-blue-700 outline-none"
+        />
+      </form>
+    </section>
+    <footer class="bg-gray-800 py-10 text-center text-gray-400">
+      Copyright &copy; 2022 Shuaib
+    </footer>
+  </body>
+</html>
